@@ -7,7 +7,7 @@ JPA 학습을 위한 테스트 코드 작성 <br>
 ## Environment
 Java Version 11.0.1 <br>
 Spring Boot Version 2.6.4 <br>
-MySQL (AWS RDS)
+MySQL Version 8.0 (AWS RDS)
   
 ## Usage
   
