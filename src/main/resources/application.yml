@@ -1,0 +1,25 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://njh4803.cpm7maesropz.ap-northeast-2.rds.amazonaws.com :3306/book_manager
+    username: admin
+    password: wlgud1025017
+  sql:
+    init:
+      mode: always
+server:
+  port: 8080
+#logging:
+#  level:
+#    root: trace
